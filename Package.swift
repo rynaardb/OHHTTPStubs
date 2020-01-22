@@ -3,6 +3,10 @@ import PackageDescription
 
 let package = Package(
     name: "OHHTTPStubs",
+    platforms: [
+        .iOS(.v5),
+        .macOS(.v10_7)
+    ],
     products: [
         .library(
             name: "OHHTTPStubs",
